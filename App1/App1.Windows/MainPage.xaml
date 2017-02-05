@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="maingrid" Background="Orange">
+        <Border x:Name="border" BorderBrush="Black" BorderThickness="9" HorizontalAlignment="Left" Height="768" Margin="1030,0,0,0" VerticalAlignment="Top" Width="295" Background="#FFEED35A">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="שורת טקסט להצגה בלבד" VerticalAlignment="Top" Height="172" Width="275" FontSize="35" Margin="1,230,0,0" HorizontalAlignment="Center" TextAlignment="Center"/>
+        </Border>
+        <Button x:Name="changemainbrd1" Content="Button" HorizontalAlignment="Left" Margin="773,534,0,0" VerticalAlignment="Top" Height="127" Width="222" Background="Brown" PointerEntered="changemainbrd1_PointerEntered"/>
+        <Button x:Name="changemainbrd2" Content="Button" HorizontalAlignment="Left" Margin="773,374,0,0" VerticalAlignment="Top" Height="119" Width="222" Background="Pink" PointerEntered="changemainbrd2_PointerEntered"/>
+
+
+    </Grid>
+</Page>
